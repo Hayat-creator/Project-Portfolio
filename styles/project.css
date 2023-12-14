@@ -1,8 +1,31 @@
+.root {
+  --branding-color: #edfbc8;
+  --heading-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--heading-font-family);
+}
+
 h1 {
   color: black;
-  font-family: "playfair Display", serif;
-  font-weight: bold;
-}
-p {
   font-family: "poppins", sans-serif;
+  font-weight: 700px;
+  font-size: 72px;
+  line-height: 98px;
+}
+.plant h2 {
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.plant {
+  background-color: var(--branding-color);
+  background-image: ");
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+
 }
