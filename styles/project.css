@@ -2,14 +2,12 @@ body {
   font-family: "poppins", sans-serif;
   margin: 0px;
   padding: 0px;
-  background-color:c
+  background-color: c;
 }
 .container-fluid {
   width: 100%;
   height: 100%;
-background-color:rgb(238, 237, 209)
-  padding-bottom: 80px;
-  margin: 0 auto;
+  background-color: rgb(243, 244, 239);
 }
 h1 {
   color: black;
@@ -57,19 +55,14 @@ h2 {
 .section .col {
   grid-gap: 5px;
 }
+
 .section .col img {
   width: 100%;
   height: 100%;
   background-size: cover;
   border-radius: 5px;
 }
-
 .logo {
   max-width: 100px;
   border-radius: 5px;
-}
-
-.navbar-green{
-  background-color: rgb(234, 242, 192);
-  padding:0;
 }
