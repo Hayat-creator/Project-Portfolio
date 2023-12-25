@@ -67,3 +67,11 @@ h2 {
   font-family: "poppins", sans-serif;
   line-height: 98px;
 }
+.card {
+  margin: 0 auto;
+  font-family: "poppins", sans-serif;
+}
+.card-title {
+  font-size: 54px;
+  font-weight: 300;
+}
