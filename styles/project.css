@@ -95,13 +95,17 @@ p {
 }
 
 .navbar-toggler-icon {
-  color: #606c11;
+  color: #f28f92;
 }
 .navbar-brand {
-  color: #606c11;
+  color: #f28f92;
 }
 .navbar-nav .nav-link.active {
-  color: #606c11;
+  color: #f28f92;
+}
+.nav-link {
+  color: #f28f92;
+  font-size: 18px;
 }
 .email-link {
   display: flex;
@@ -111,16 +115,18 @@ p {
   color: #f28f92;
 }
 
-footer {
-  background-color: rgb(243, 244, 239);
-  padding: 3em;
-  grid-column: 1 / -1;
-  color: #88941e;
-  text-align: center;
-}
-.nav-link {
+.email-link:hover {
   color: #606c11;
-  font-weight: 20px;
+}
+
+footer .social-links {
+  color: #f28f92;
+  text-align: center;
+  margin: 60px 0;
+}
+
+footer .social-links:hover {
+  color: #606c11;
 }
 
 @media (max-width: 800px) {
